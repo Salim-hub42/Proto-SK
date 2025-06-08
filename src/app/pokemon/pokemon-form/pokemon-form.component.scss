@@ -1,0 +1,28 @@
+.ng-valid[required] {
+   border-left: 5px solid #42A948;
+   /* green */
+}
+
+.ng-invalid:not(form) {
+   border-left: 5px solid #A94442;
+}
+
+input[type="checkbox"] {
+   opacity: 1 !important;
+   position: static !important;
+   pointer-events: auto !important;
+   width: auto !important;
+   height: auto !important;
+}
+
+.type-badge {
+   display: inline-block;
+   padding: 2px 12px;
+   border-radius: 20px;
+   color: #fff;
+   font-size: 0.95em;
+   font-weight: 500;
+   margin-left: 8px;
+   margin-bottom: 2px;
+   vertical-align: middle;
+}

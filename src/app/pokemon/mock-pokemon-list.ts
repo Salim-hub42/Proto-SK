@@ -1,0 +1,58 @@
+import { Pokemon } from './pokemon';
+
+export const POKEMONS: Pokemon[] = [
+   {
+      id: 1,
+      hp: 25,
+      cp: 5,
+      name: 'bulbizard',
+      picture: 'assets/images/bulbi.png',
+      types: ['plante'],
+      created: new Date(),
+   },
+   {
+      id: 2,
+      hp: 28,
+      cp: 6,
+      name: 'salaméche',
+      picture: 'assets/images/sala.png',
+      types: ['feu'],
+      created: new Date(),
+   },
+   {
+      id: 3,
+      hp: 21,
+      cp: 4,
+      name: 'carapuce',
+      picture: 'assets/images/cara.png',
+      types: ['eau'],
+      created: new Date(),
+   },
+   {
+      id: 4,
+      hp: 16,
+      cp: 2,
+      name: 'aspicot',
+      picture: 'assets/images/asticot.png',
+      types: ['insecte'],
+      created: new Date(),
+   },
+   {
+      id: 5,
+      hp: 30,
+      cp: 10,
+      name: 'pikachu',
+      picture: 'assets/images/pika.png',
+      types: ['elec'],
+      created: new Date(),
+   },
+   {
+      id: 6,
+      hp: 20,
+      cp: 5,
+      name: 'ghost',
+      picture: 'assets/images/ghost.png',
+      types: ['spectre'],
+      created: new Date(),
+   },
+];

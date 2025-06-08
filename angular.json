@@ -68,6 +68,9 @@
             },
             "development": {
               "buildTarget": "Proto-SK:build:development"
+            },
+            "option": {
+              "liveReload": true
             }
           },
           "defaultConfiguration": "development"
